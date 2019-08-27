@@ -90,7 +90,7 @@ var UrlBuilder = /** @class */ (function () {
             route = { path: route };
         }
         var baseURL = route.baseURL ? route.baseURL : this.options.baseURL;
-        return new RouteBuilder(name, route.path, baseURL);
+        return new RouteBuilder(routeName, route.path, baseURL);
     };
     return UrlBuilder;
 }());
